@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 import { NextFunction, Request, Response } from 'express';
-import { ApiError } from '../errors/ApiError';
+import { ApiError } from '../Errors/ApiError';
 
 export class WeatherController {
 

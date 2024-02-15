@@ -1,8 +1,7 @@
 import { Request, Response, NextFunction } from "express";
-import { CustomError } from "../errors/CustomError";
+import { CustomError } from "../Errors/CustomError";
 
 export function errorHandler(err: Error, req: Request, res: Response, next: NextFunction) {
-    console.log(err.stack);
     if(err instanceof CustomError) {
         res.status(500).json({
             error: err.message,

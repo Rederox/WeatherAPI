@@ -1,4 +1,4 @@
-import { ERROR_CODES } from "../Constantes/errorCodes";
+import { ERROR_CODES } from "../Constants/errorCodes";
 import { CustomError } from "./CustomError";
 
 

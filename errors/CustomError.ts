@@ -1,4 +1,4 @@
-import { ERROR_CODES } from "../Constantes/errorCodes";
+import { ERROR_CODES } from "../Constants/errorCodes";
 
 export class CustomError extends Error {    
     errorcode: number;

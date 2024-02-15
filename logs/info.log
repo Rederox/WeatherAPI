@@ -1,0 +1,8 @@
+2024-02-15 10:19:10 info: Requête entrante - Méthode: GET, URL: /weather/parisdsfsd, IP: ::1
+2024-02-15 10:19:10 info: Réponse sortante - Statut: 500, Durée: 61.175ms
+2024-02-15 10:19:14 info: Requête entrante - Méthode: GET, URL: /weather/parisdsfsd, IP: ::1
+2024-02-15 10:19:14 info: Réponse sortante - Statut: 500, Durée: 32.271ms
+2024-02-15 10:20:36 info: Requête entrante - Méthode: GET, URL: /weather/parisdsfsd, IP: ::1
+2024-02-15 10:20:36 info: Réponse sortante - Statut: 500, Durée: 79.276ms
+2024-02-15 10:24:30 info: Requête entrante - Méthode: GET, URL: /weather/paris, IP: ::1
+2024-02-15 10:24:30 info: Réponse sortante - Statut: 200, Durée: 35.895ms

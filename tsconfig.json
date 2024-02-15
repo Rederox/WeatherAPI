@@ -1,5 +1,17 @@
 {
   "compilerOptions": {
+
+    /* Les raccourci Paths */
+    "baseUrl": "",
+    "paths": {
+      "@constants/*": ["Constants/*"],
+      "@controllers/*": ["Controllers/*"],
+      "@middlewares/*": ["Middlewares/*"],
+      "@errors/*": ["Errors/*"],
+      "@logger/*": ["Logger/*"],
+    },
+
+
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */

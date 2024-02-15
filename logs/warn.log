@@ -1,0 +1,28 @@
+
+        
+15-02-2024 11:24:16 error: 
+            From : ::1,
+            URL : /weather/parisdfssdf,
+            Erreur 1002 : Erreur lors de la récupération de la météo
+        
+15-02-2024 11:27:40 info: Requête entrante - Méthode: GET, URL: /weather/parisdfssdf, IP: ::1
+15-02-2024 11:27:40 error: 
+            From : ::1,
+            URL : /weather/parisdfssdf,
+            Erreur 1002 : Erreur lors de la récupération de la météo
+        
+15-02-2024 11:27:40 info: Réponse sortante - Statut: 500, Durée: 84.612ms
+15-02-2024 11:27:54 info: Requête entrante - Méthode: GET, URL: /weather/parisdfssdf, IP: ::1
+15-02-2024 11:27:54 error: 
+            From : ::1,
+            URL : /weather/parisdfssdf,
+            Erreur 1002 : Erreur lors de la récupération de la météo
+        
+15-02-2024 11:27:54 info: Réponse sortante - Statut: 500, Durée: 55.053ms
+15-02-2024 11:28:02 info: Requête entrante - Méthode: GET, URL: /weather/parisdfssdf, IP: ::1
+15-02-2024 11:28:02 error: 
+            From : ::1,
+            URL : /weather/parisdfssdf,
+            Erreur 1002 : Erreur lors de la récupération de la météo
+        
+15-02-2024 11:28:02 info: Réponse sortante - Statut: 500, Durée: 41.969ms

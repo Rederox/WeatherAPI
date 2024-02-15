@@ -1,7 +1,5 @@
-15-02-2024 11:28:02 info: Requête entrante - Méthode: GET, URL: /weather/parisdfssdf, IP: ::1
 15-02-2024 11:28:02 error: 
             From : ::1,
             URL : /weather/parisdfssdf,
             Erreur 1002 : Erreur lors de la récupération de la météo
         
-15-02-2024 11:28:02 info: Réponse sortante - Statut: 500, Durée: 41.969ms

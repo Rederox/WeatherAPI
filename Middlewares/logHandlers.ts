@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import logger from '../Logger/logger'; // Assurez-vous que ce chemin est correct
+import logger from '../Logger/logger'; 
 
 export function logRequest(req: Request, res: Response, next: NextFunction): void {
   const { method, url } = req;

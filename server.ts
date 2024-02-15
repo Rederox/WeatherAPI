@@ -12,17 +12,16 @@ const app = express();
 
 const weatherController = new WeatherController(API_KEY);
 
-// Middleware pour les requêtes entrantes
+// Middlewares De logs Entrants et Sortants
 app.use(logRequest);
-
-// Middleware pour les réponses sortantes
 app.use(logResponse);
 
-
+// Les routes
 app.get('/weather/:city', async (req: Request, res: Response, next: NextFunction) => {
     await weatherController.getWeatherByCity(req, res, next);
 })
 
+// Middlewares d'erreur
 app.use(errorHandler);
 
 

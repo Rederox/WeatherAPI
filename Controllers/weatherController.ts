@@ -1,6 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import { NextFunction, Request, Response } from 'express';
 import { ApiError } from '../Errors/ApiError';
+import { CurrentWeatherUrl } from '../Constants/apiWeather';
 
 export class WeatherController {
 
@@ -13,10 +14,10 @@ export class WeatherController {
 
     public async getWeatherByCity(req: Request, res: Response, next: NextFunction):Promise<void> {
         const city: string = req.params.city;
-        const url = `http://api.weatherapi.com/v1/current.json?key=${this.API_KEY}&q=${city}&lang=fr`;
+        const params = `&q=${city}&lang=fr`;
         try {
             const response : AxiosResponse = await axios.get(
-                url
+                CurrentWeatherUrl + params
             );
             const data = response.data;
             res.json(data);
